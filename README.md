@@ -9,7 +9,7 @@
 
 | Name | Student ID | Email |
 | :---- | :---- | :---- |
-| Jane Doe | 301111111 | jane.doe@university.edu |
+| Angad Hundal | 301590384 | ash32@sfu.ca |
 | John Smith | 301222222 | john.smith@university.edu |
 
 ## **1\. Project Overview & Description**
