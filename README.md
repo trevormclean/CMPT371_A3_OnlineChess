@@ -53,7 +53,7 @@ To run this project, you need:
 
 * **Python 3.10** or higher  
 * **pygame** installed  
-* The provided chess piece image assets in an `img/` folder next to `gui.py`
+* The provided chess piece image assets in an `img/` folder inside `src/`
 
 Install `pygame` with:
 
