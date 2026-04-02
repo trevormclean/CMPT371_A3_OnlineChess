@@ -163,10 +163,7 @@ Game over:
  
 ### **GenAI Usage**
 - ChatGPT was used to help explain networking design decisions, organize message formats, and refine documentation/comments.
-- Any generated suggestions were reviewed, edited, and integrated manually by the group.
  
 ### **References**
-- [Python Socket Programming HOWTO](https://docs.python.org/3/howto/sockets.html)
-- [Python `threading` documentation](https://docs.python.org/3/library/threading.html)
 - [CMPT371_A3_Socket_Programming by Miriam Bebawy](https://github.com/mariam-bebawy/CMPT371_A3_Socket_Programming)
  
