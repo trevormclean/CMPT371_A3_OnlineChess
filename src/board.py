@@ -255,7 +255,8 @@ class Board:
     """Returns True if making the move leaves the mover's king in check."""
     board_copy = deepcopy(self)
     board_copy.apply_move(move)
-    return board_copy.in_check(self.turn)  # self.turn = the color that just moved
+    piece = self.grid[move.start[0]][move.start[1]]
+    return board_copy.in_check(piece.color) 
 
   def get_legal_moves(self, row: int, col: int) -> list[Move]:
     """All legal moves for the piece at (row, col)."""

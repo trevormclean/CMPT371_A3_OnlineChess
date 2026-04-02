@@ -10,7 +10,7 @@
 | Name | Student ID | Email |
 | :---- | :---- | :---- |
 | Angad Hundal | 301590384 | ash32@sfu.ca |
-| John Smith | 301222222 | john.smith@university.edu |
+| Trevor McLean | 301605526 | tjm12@sfu.ca |
 
 ## **1\. Project Overview & Description**
 
@@ -40,6 +40,9 @@ As required by the project specifications, we identified and handled (or explici
 
 * **Disconnect Handling:**  
   * <span style="color: green;">*Solution:*</span> If one player disconnects during their turn, the server ends the session and awards the win to the other player.
+
+* **Chess rules:**
+  * <span style="color: red;">*Limitation:*</span> A few niche chess rules (threefold repitition, fifty-move rule, and insufficient material) are not implemented since they are complex and rare.  
 
 ## **3\. Video Demo**
 
@@ -163,6 +166,7 @@ Game over:
  
 ### **GenAI Usage**
 - ChatGPT was used to help explain networking design decisions, organize message formats, and refine documentation/comments.
+- Claude was used for help in using pygame to build the GUI. 
  
 ### **References**
 - [CMPT371_A3_Socket_Programming by Miriam Bebawy](https://github.com/mariam-bebawy/CMPT371_A3_Socket_Programming)
