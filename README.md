@@ -52,13 +52,13 @@ Our 2-minute video demonstration covering connection establishment, data exchang
 To run this project, you need:
 
 * **Python 3.10** or higher  
-* **pygame** installed  
+* **pygame 2.5.2** installed  
 * The provided chess piece image assets in an `img/` folder inside `src/`
 
-Install `pygame` with:
+Install `pygame 2.5.2` with:
 
 ```bash
-pip install pygame
+pip install -r requirements.txt
 ```
 
 ## **5\. Step-by-Step Run Guide**
