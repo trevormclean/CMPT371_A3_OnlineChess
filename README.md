@@ -10,7 +10,7 @@
 | Name | Student ID | Email |
 | :---- | :---- | :---- |
 | Angad Hundal | 301590384 | ash32@sfu.ca |
-| John Smith | 301222222 | john.smith@university.edu |
+| Trevor McLean | 301605526 | tjm12@sfu.ca |
 
 ## **1\. Project Overview & Description**
 
@@ -55,10 +55,10 @@ To run this project, you need:
 * **pygame** installed  
 * The provided chess piece image assets in `src/img/`
 
-Install `pygame` with:
+Install `pygame 2.5.2` with:
 
 ```bash
-pip install pygame
+pip install -r requirements.txt
 ```
 
 ## **5\. Step-by-Step Run Guide**
@@ -174,6 +174,7 @@ Game over:
  
 ### **GenAI Usage**
 - ChatGPT was used to help explain networking design decisions, organize message formats, and refine documentation/comments.
+- Claude was used for help in using pygame to build the GUI. 
  
 ### **References**
 - [CMPT371_A3_Socket_Programming by Miriam Bebawy](https://github.com/mariam-bebawy/CMPT371_A3_Socket_Programming)
