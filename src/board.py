@@ -212,6 +212,9 @@ class Board:
         else:
           moves.append(Move((row, col), (r, c)))
       elif (r, c) == self.en_passant_square:
+        # prevent en passant capture of own piece
+        if (piece.color == WHITE and row == 1) or (piece.color == BLACK and row == 6):
+          continue 
         moves.append(Move((row, col), (r, c), en_passant=True))
 
     return moves
